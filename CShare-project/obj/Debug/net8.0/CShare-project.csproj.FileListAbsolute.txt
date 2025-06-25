@@ -1,0 +1,14 @@
+D:\Git Repository\C-Sharp\CShare-project\bin\Debug\net8.0\CShare-project.exe
+D:\Git Repository\C-Sharp\CShare-project\bin\Debug\net8.0\CShare-project.deps.json
+D:\Git Repository\C-Sharp\CShare-project\bin\Debug\net8.0\CShare-project.runtimeconfig.json
+D:\Git Repository\C-Sharp\CShare-project\bin\Debug\net8.0\CShare-project.dll
+D:\Git Repository\C-Sharp\CShare-project\bin\Debug\net8.0\CShare-project.pdb
+D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\CShare-project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\CShare-project.AssemblyInfoInputs.cache
+D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\CShare-project.AssemblyInfo.cs
+D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\CShare-project.csproj.CoreCompileInputs.cache
+D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\CShare-project.dll
+D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\refint\CShare-project.dll
+D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\CShare-project.pdb
+D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\CShare-project.genruntimeconfig.cache
+D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\ref\CShare-project.dll
