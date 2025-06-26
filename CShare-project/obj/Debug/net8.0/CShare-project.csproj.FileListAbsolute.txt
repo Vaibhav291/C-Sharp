@@ -12,3 +12,4 @@ D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\refint\CShare-project.
 D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\CShare-project.pdb
 D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\CShare-project.genruntimeconfig.cache
 D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\ref\CShare-project.dll
+D:\Git Repository\C-Sharp\CShare-project\obj\Debug\net8.0\CShare-project.sourcelink.json
