@@ -22,27 +22,86 @@ class Program
 	/* PrintDetails(age:27, name: "vaibhav"); */
 	
 	//ref
-	int x = 5;
+	/* int x = 5;
 	AddTen(ref x);
-	
+	 */
 	//Params
-	Sum(1,2,3);
+	/* Sum(1,2,3); */
 	
 	//Out Parameter
-	int quotient, rem;
+	/* int quotient, rem;
 	Divide(10, 3, out quotient, out rem);
-	Console.WriteLine($"Quotient: {quotient}, Remainder: {rem}");
+	Console.WriteLine($"Quotient: {quotient}, Remainder: {rem}"); */
 	
 	//Ref out parameter
-	int number = 10;
+	/* int number = 10;
 	int result;
 	
 	RefOut(ref number, out result);
 	
 	Console.WriteLine($"Modified Number (ref): {number}");   // Output: 15
-    Console.WriteLine($"Square (out): {result}");  
+    Console.WriteLine($"Square (out): {result}");  */
+
+    //Implicit Casting
+    /* int a =10;
+    double b = a;
+    Console.WriteLine(b);	 */
+	
+	//Explicit Casting
+/* 	double x = 9.8;
+	int y = (int)x;
+	Console.WriteLine(y); */
+	
+	//Parse
+/* 	string numberStr = "123";
+	int num = int.Parse(numberStr);
+	Console.WriteLine(num);
+	
+	int bad = int.Parse("abc"); // throws FormatException */
+	
+	//TryParse
+/* 	string input = "456";
+	if(int.TryParse(input, out int result))
+	{
+		Console.WriteLine(result);
+	}else{
+		Console.WriteLine("Invalid Number");
+	}	 */
+	
+	//Conversion Methods
+/* 	string str = "789";
+	int num = Convert.ToInt32(str);
+	Console.WriteLine(num);
+	
+	string nullstr = null;
+	int val = Convert.ToInt32(nullstr);
+	Console.WriteLine(val); */
+	
+	//Instance Constructor Usage
+/* 	var p = new Person("Vaibhav");
+	Console.WriteLine(p.Name); */
+	
+	//Constructor Overloading
+/* 	var e1 = new ConstructorOverloading();
+	var e2 = new ConstructorOverloading("vaibhav");
+	var e3 = new ConstructorOverloading("vaibhav", 27);
+	Console.WriteLine(e1);
+	Console.WriteLine(e2);
+	Console.WriteLine(e3); */
+	
+	//Object Initializer
+/* 	var s = new Student { Name = "Vaibhav", Age = 27 };
+	Console.WriteLine($"{s.Name}, {s.Age}"); */
   }	  
   
+/*   static string logFile;
+  
+  static Program()
+    {
+        logFile = "app.log";
+        Console.WriteLine("Static constructor called");
+    }
+   */
   public static void Main()
   { 
     SystemConSoleClass();
@@ -88,3 +147,71 @@ class Program
 	  square = value * value;
   }
 }
+
+/* class Person
+{
+	public string Name;
+	
+	//Instance constructor
+	public Person(string name)
+	{
+		Name = name;
+	}
+} */
+
+//Default Constructor
+/* class Car
+{
+    public string Model;
+}
+var c = new Car(); // Default constructor
+ */
+ 
+ //Parameterzied Constructor
+/*  class Car
+{
+    public string Model;
+    public Car(string model)
+    {
+        Model = model;
+    }
+} */
+
+//Copy Constructor
+/* class Car
+{
+    public string Model;
+    public Car(Car other)
+    {
+        Model = other.Model;
+    }
+}
+ */
+ 
+ //Constructor Overloading
+ /* class ConstructorOverloading{
+	 
+	public string Name;
+	public int Age;
+	
+	public ConstructorOverloading(){
+		Name = "unknown";
+		Age = 0;
+	}
+	
+	public ConstructorOverloading(string name){
+		Name = name;
+		Age = 0;
+	}
+	
+	public ConstructorOverloading(string name, int age){
+		Name = name;
+		Age = age;
+	}
+ } */
+
+/* class Student
+{
+	public string Name { get; set; }
+	public int Age { get; set; }
+} */
